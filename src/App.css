@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  padding: 0px 20px;
+  color: rgb(5, 5, 5);
+  background:  rgb(217, 217, 217);
+  padding: 01px 0px 20px 0px;
+}
+
+.input{
+  margin: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+.task-box{
+  display: flex;
+}
+
+label {
+  flex-direction: column;
+  display: flex;
+  max-width: 500px;
+  text-align: initial;
+
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 258px);
+    overflow-y: auto;
+
+}
+
+.list-item{ 
+margin-bottom: 6px;
+text-align: left;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12px;
+  max-width: 800px;
+
+}
+
+td, th {
+  border: 1px solid rgb(217, 217, 217);;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.nav-link{
+  margin-right: 12px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.active{
+  text-decoration: underline;
+  color: slateblue;
+}
+
+.footer{   
+   position: fixed;
+  bottom: 0px;
+  background:  rgb(217, 217, 217);
+  width: 100%;
+  padding: 16px;
+}
+
+
+.side-bar { 
+  grid-area: menu;   
+  flex-direction: column;
+  display: flex;
+  width: 20%;
+  height: calc(100vh - 235px);
+  background:  rgb(217, 217, 217);
+  padding: 20px 0px;
+}
+.main { 
+  grid-area: main;
+  width: 80%;
+ }
+
+
+.container {
+  display: flex;
+  padding: 20px;
+}
